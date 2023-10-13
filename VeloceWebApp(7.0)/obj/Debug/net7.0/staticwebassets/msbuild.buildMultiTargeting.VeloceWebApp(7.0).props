@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VeloceWebApp(7.0).props" />
+</Project>
