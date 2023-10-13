@@ -16,32 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/PersonModels/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTW9kZWxzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/PersonModels/CreateOrEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTW9kZWxzXENyZWF0ZU9yRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/PersonModels/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTW9kZWxzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/PersonModels/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTW9kZWxzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/PersonModels/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTW9kZWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ogryz/source/repos/VeloceWebApp(7.0)/VeloceWebApp(7.0)/Views/PersonModels/Index.cshtml]

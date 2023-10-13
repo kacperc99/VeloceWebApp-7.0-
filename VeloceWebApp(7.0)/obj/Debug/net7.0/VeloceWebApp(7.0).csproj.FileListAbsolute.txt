@@ -64,9 +64,7 @@ C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\scopedcss\bundle\VeloceWebApp(7.0).styles.css
-C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\scopedcss\projectbundle\VeloceWebApp(7.0).bundle.scp.css
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\VeloceWebApp(7.0).csproj.CopyComplete
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\VeloceWebApp(7.0).dll
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\refint\VeloceWebApp(7.0).dll
@@ -251,3 +249,5 @@ C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\bin\Debug\net7.0
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ogryz\source\repos\VeloceWebApp(7.0)\VeloceWebApp(7.0)\obj\Debug\net7.0\scopedcss\projectbundle\VeloceWebApp(7.0).bundle.scp.css

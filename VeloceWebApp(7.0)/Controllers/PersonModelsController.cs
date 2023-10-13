@@ -116,7 +116,7 @@ namespace VeloceWebApp_7._0_.Controllers
                 if (personModel.Email!=null)
                     mail_result = regex.IsMatch(personModel.Email);
                 if(personModel.Phone_Number!=null)
-                    number_result = !personModel.Phone_Number.Any(x => char.IsLetter(x));
+                    number_result = personModel.Phone_Number.Any(x => char.IsNumber(x));
                 if (ModelState.IsValid && 
                     DateTime.Compare(personModel.Birth_Date, DateTime.Now) < 0 && 
                     (personModel.Sex=="Male" || personModel.Sex=="Female") && 
@@ -139,7 +139,7 @@ namespace VeloceWebApp_7._0_.Controllers
                 if (personModel.Email != null)
                     mail_result = regex.IsMatch(personModel.Email);
                 if (personModel.Phone_Number != null)
-                    number_result = !personModel.Phone_Number.Any(x => char.IsLetter(x));
+                    number_result = personModel.Phone_Number.Any(x => char.IsNumber(x));
                 if (ModelState.IsValid &&
                     DateTime.Compare(personModel.Birth_Date, DateTime.Now) < 0 &&
                     (personModel.Sex == "Male" || personModel.Sex == "Female") &&
