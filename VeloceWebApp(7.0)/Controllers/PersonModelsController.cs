@@ -116,8 +116,8 @@ namespace VeloceWebApp_7._0_.Controllers
                 if (personModel.Email!=null)
                     mail_result = regex.IsMatch(personModel.Email);
                 if(personModel.Phone_Number!=null)
-                    number_result = personModel.Phone_Number.Any(x => char.IsNumber(x));
-                if (ModelState.IsValid && 
+                    number_result = personModel.Phone_Number.All(x => char.IsNumber(x));
+                if (ModelState.IsValid && personModel.Name.All(x => char.IsLetter(x))==true && personModel.Surname.All(x => char.IsLetter(x)) == true &&
                     DateTime.Compare(personModel.Birth_Date, DateTime.Now) < 0 && 
                     (personModel.Sex=="Male" || personModel.Sex=="Female") && 
                     ((personModel.Phone_Number==null|| personModel.Phone_Number.Length==9) 
@@ -139,8 +139,8 @@ namespace VeloceWebApp_7._0_.Controllers
                 if (personModel.Email != null)
                     mail_result = regex.IsMatch(personModel.Email);
                 if (personModel.Phone_Number != null)
-                    number_result = personModel.Phone_Number.Any(x => char.IsNumber(x));
-                if (ModelState.IsValid &&
+                    number_result = personModel.Phone_Number.All(x => char.IsNumber(x));
+                if (ModelState.IsValid && personModel.Name.All(x=>char.IsLetter(x))==true && personModel.Surname.All(x => char.IsLetter(x))==true &&
                     DateTime.Compare(personModel.Birth_Date, DateTime.Now) < 0 &&
                     (personModel.Sex == "Male" || personModel.Sex == "Female") &&
                     ((personModel.Phone_Number == null || personModel.Phone_Number.Length == 9)
@@ -163,7 +163,7 @@ namespace VeloceWebApp_7._0_.Controllers
             {
                 //int age = DateTime.Compare(p.Birth_Date, DateTime.Now);
                 var today = DateTime.Now;
-                var age = today - p.Birth_Date;
+                int age = today.Year - p.Birth_Date.Year;
                 if (p.Sex == "Male")
                     writer.Write("Mr ");
                 else if (p.Sex=="Female")
